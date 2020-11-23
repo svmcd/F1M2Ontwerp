@@ -1,2 +1,3 @@
 
-[link naar live versie](http://30859.hosts1.ma-cloud.nl/F1M2Ontwerp/goedeLandingpage.html)
+[10 punten landingpage](http://30859.hosts1.ma-cloud.nl/F1M2Ontwerp/goedeLandingpage.html)
+[Madurodam website](http://30859.hosts1.ma-cloud.nl/F1M2Ontwerp/madurodam.html)
