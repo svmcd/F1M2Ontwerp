@@ -8,18 +8,27 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
     <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
         main {
+            flex: 3 0 auto;
+            display: flex;
             padding: 0 1%;
         }
         section {
-            width: 23%;
-            float: left;
+            flex: 1 0 13%;
             padding: 20px;
-            box-sizing: border-box;
-            margin: 1%;
+            box-sizing: bottom;
+            margin: 0 1%;
         }
-        footer {
-            clear: left;
+        h1, footer {
+            flex: 1 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
@@ -30,7 +39,7 @@
         <a href="inline-block.html">inline-block</a>
         <a href="flex.html">flexbox</a>
     </nav>
-    <h1 class="titel">Madurodam - block</h1>
+    <h1 class="titel">Madurodam - flex</h1>
     <main>
         <section>
             <p>Madurodam is een Nederlandse miniatuurstad. Door middel van maquettes van gebouwen geeft het een beeld van een Nederlandse stad en de Nederlandse samenleving. Alles is op schaal van 1 op 25 nagebouwd. Er zijn onder meer gebouwen uit historische binnensteden, moderne woonwijken, een luchthaven, wegen, kanalen, havengebieden, natuurgebieden en landerijen.

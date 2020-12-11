@@ -6,6 +6,10 @@ body {
     font-size: 13px;
 }
 
+* {
+    color: black;
+}
+
 .vak {
     /*background-color: rgba(255, 255, 255, 0.8);*/
     width: 200px;
@@ -41,14 +45,14 @@ body {
 }
 
 #groen {
-    margin-left: 524px;
-    margin-top: -500px;
-    padding-top: 450px;
+    margin-left: 500px;
+    margin-top: -485px;
+    padding-top: 453px;
     padding-right: 300px;
 }
 
 #groen .kleur {
-    margin-left: 85px;
+    margin-left: 25px;
 }
 
 #blauw {
@@ -64,9 +68,9 @@ body {
 }
 
 #geel {
-    margin-left: 527px;
-    margin-top: -496px;
-    padding-bottom: 463px;
+    margin-left: 525px;
+    margin-top: -500px;
+    padding-bottom: 465px;
     padding-right: 300px;
 }
 
@@ -77,6 +81,6 @@ h3, p {
 }
 
 .kleur {
-    border-left: solid 7px white;
+    border-left: solid 7px black;
     padding-left: 7px;
 }
