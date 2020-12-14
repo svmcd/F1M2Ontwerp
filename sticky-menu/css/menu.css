@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2c3238;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: #22272c;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    flex: 1 0 330px
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #1c2024;
+    color: white;
+    transition: 0.5s;
+    font-size: 21px;
+}
+
+.header {
+    padding: 2em;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    background-image: url(../afb/Kerstmenu.jpeg);
+    background-position: center;
+}
+
+.header h1 {
+    letter-spacing: 0px;
+}
+
+.header h4 {
+    letter-spacing: 0px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.richtpunt {
+    position: relative;
+    top: -80px;
+    display: block;
+    visibility: hidden;
+}
+section {
+    background-color: #333a41;
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+    color: white;
+    font-size: 20px;
+}
+section header {
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#voor header {
+    background-image: url(../afb/bietentartaar.jpg);
+}
+
+#hoofd header {
+    background-image: url(../afb/pastinaak.jpg);
+}
+
+#bij header {
+    background-image: url(../afb/stoofpeertjes.jpg);
+}
+
+#na header {
+    background-image: url(../afb/tiramisu.jpg);
+}
+
+h1, h2, h4 {
+    color: white;
+    text-align: center; 
+    text-shadow: 0 0 13px darkslategrey; 
+    letter-spacing: 7px;
+}
+
+h4 {
+    font-variant: small-caps;
+}
+h6 {
+    margin-bottom: -25px;
+    font-size: 20px;
+}
+
+section ol {
+    margin: 20px 60px;
+}
+section p, section h6 {
+    padding: 0px 90px
+}
+
+/* de footer  */
+
+footer {
+    background-color: #22272c;
+    color: floralwhite;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: floralwhite;
+}
+
+/* de validatie-icons  */
+.validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+
+#naam {
+    font-size: 15px;
+}
